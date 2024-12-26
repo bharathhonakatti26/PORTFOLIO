@@ -306,7 +306,7 @@ const Portfolio = () => {
                                 <img src={Bharath} alt="Bharath Honakatti" data-aos="fade-left" data-aos-delay="2500" className="image-container" />
                             </div>
                         </div>
-                        <div className={`home-navbar ${isSticky ? "sticky" : ""}`}>
+                        <div data-aos="fade-up" className={`home-navbar ${isSticky ? "sticky" : ""}`}>
                             <div className="home-navbar-logo">
                                 <img src={Bharath_logo} alt="Bharath Honakatti" />
                             </div>

@@ -89,7 +89,7 @@ h1 {
 }
 
 .hand_shake.animate {
-  animation: handShakeEffect 1s ease-in-out 1;
+  animation: handShakeEffect 1s ease-in-out 2;
 }
 
 @keyframes handShakeEffect {
