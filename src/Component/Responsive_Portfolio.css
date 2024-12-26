@@ -469,8 +469,9 @@
     }
 
     .form-container {
-        width: 100%;
+        width: 80%;
         padding: 1.5rem;
+        margin-left: -15px;
     }
 
     .contact-form {
