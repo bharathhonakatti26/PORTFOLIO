@@ -1,12 +1,8 @@
 import React, { useState, useEffect } from "react";
 import './App.css';
 import Portfolio from './Component/Portfolio';
-import Preloader from './Component/Preloader';
 
 function App() {
-
-  const [loading, setLoading] = useState(true);
-  const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
     const cursorRing = document.createElement("div");
@@ -76,25 +72,9 @@ function App() {
     };
   }, []);
 
-  useEffect(() => {
-    const handleLoad = () => {
-      setLoading(false);
-      setTimeout(() => {
-        setLoaded(true);
-      }, 500);
-    };
-
-    window.addEventListener('load', handleLoad);
-
-    return () => {
-      window.removeEventListener('load', handleLoad);
-    };
-  }, []);
-
-
   return (
     <div className="App">
-      {loading ? <Preloader /> : <Portfolio />}
+      <Portfolio/>
     </div>
   );
 }
