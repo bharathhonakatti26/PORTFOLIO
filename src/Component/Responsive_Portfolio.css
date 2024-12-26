@@ -336,7 +336,7 @@
 
     /* About Section */
     .about {
-        padding: 60px 15px;
+        padding: 130px 15px;
     }
 
     .about-heading {
@@ -364,10 +364,9 @@
         padding: 0 10px;
     }
 
-    /* Projects Section */
     .projects {
-        padding: 60px 0px;
-        margin: 0px;
+        padding: 130px 0px;
+        margin-left: 10px;
     }
 
     .project-image{
@@ -397,7 +396,7 @@
         width: 90%;
         max-width: 320px;
         height: auto;
-        min-height: 250px;
+        min-height: 390px;
         margin: 10px auto;
     }
 
@@ -414,7 +413,7 @@
     .project-modal-content {
         width: 95%;
         padding: 15px;
-        margin: 10px;
+        margin: 30px;
         max-height: 90vh;
     }
 
@@ -434,7 +433,6 @@
     }
 
     .project-links {
-        justify-content: center;
         margin: 20px 0;
     }
 
