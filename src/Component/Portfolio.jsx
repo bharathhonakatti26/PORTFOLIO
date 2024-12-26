@@ -359,13 +359,13 @@ const Portfolio = () => {
 
                                     {/* Mobile Social Icons */}
                                     <div className="home-navbar-links-icons">
-                                        <a onClick={handleLinkClick} href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="home-navbar-links-sub-icons">
+                                        <a onClick={handleLinkClick} href="https://github.com/bharathhonakatti26" target="_blank" rel="noopener noreferrer" className="home-navbar-links-sub-icons">
                                             <RiGithubLine className="home-navbar-links-icons-item" />
                                         </a>
-                                        <a onClick={handleLinkClick} href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="home-navbar-links-sub-icons">
+                                        <a onClick={handleLinkClick} href="https://www.linkedin.com/in/bharathhonakatti26/" target="_blank" rel="noopener noreferrer" className="home-navbar-links-sub-icons">
                                             <CiLinkedin className="home-navbar-links-icons-item" />
                                         </a>
-                                        <a onClick={handleLinkClick} href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" className="home-navbar-links-sub-icons">
+                                        <a onClick={handleLinkClick} href="https://www.instagram.com/proxy_070/" target="_blank" rel="noopener noreferrer" className="home-navbar-links-sub-icons">
                                             <FaInstagram className="home-navbar-links-icons-item" />
                                         </a>
                                     </div>
