@@ -75,45 +75,4 @@ body {
     opacity: 1;
   }
 }
-@media screen and (max-width: 1200px) {
-  /* Adjusting portfolio container width for medium-sized screens */
-  .portfolio-container {
-    max-width: 90%; /* Reduce width to 90% on medium screens */
-  }
 
-  /* Resize cursor ring for smaller screens */
-  .cursor-ring {
-    width: 20px;
-    height: 20px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  /* Adjust padding in the portfolio container for tablets */
-  .portfolio-container {
-    padding: 0 15px;
-  }
-
-  /* Optionally adjust other elements like text sizes or layout if needed */
-  /* Example: */
-  /* .some-text { font-size: 16px; } */
-}
-
-@media screen and (max-width: 480px) {
-  /* Adjust padding in the portfolio container for smaller screens */
-  .portfolio-container {
-    padding: 0 10px;
-  }
-
-  /* Adjust the progress container width for small screens */
-  .progress-container {
-    width: 90%;
-  }
-
-  /* Make cursor ring smaller for mobile */
-  .cursor-ring {
-    width: 15px;
-    height: 15px;
-  }
-
-}

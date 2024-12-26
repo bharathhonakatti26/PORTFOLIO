@@ -237,11 +237,9 @@ const Portfolio = () => {
 
     useEffect(() => {
         const handleClickOutside = (event) => {
-            // Get the navbar and menu elements
             const navbar = document.querySelector('.home-navbar');
             const menu = document.querySelector('.home-navbar-links.open');
             const toggleButton = document.querySelector('.home-navbar-menu-toggle');
-            // Check if click is outside both the menu and toggle button
             if (menu &&
                 !menu.contains(event.target) &&
                 !toggleButton.contains(event.target) &&
@@ -249,11 +247,9 @@ const Portfolio = () => {
                 setIsMenuOpen(false);
             }
         };
-        // Add event listener if menu is open
         if (isMenuOpen) {
             document.addEventListener('mousedown', handleClickOutside);
         }
-        // Cleanup function
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
         };
@@ -327,13 +323,13 @@ const Portfolio = () => {
                             </div>
                             {/* Desktop Social Icons */}
                             <div className="home-navbar-links-icons">
-                                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="home-navbar-links-sub-icons">
+                                <a href="https://github.com/bharathhonakatti26" target="_blank" rel="noopener noreferrer" className="home-navbar-links-sub-icons">
                                     <RiGithubLine className="home-navbar-links-icons-item" />
                                 </a>
-                                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="home-navbar-links-sub-icons">
+                                <a href="https://www.linkedin.com/in/bharathhonakatti26/" target="_blank" rel="noopener noreferrer" className="home-navbar-links-sub-icons">
                                     <CiLinkedin className="home-navbar-links-icons-item" />
                                 </a>
-                                <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" className="home-navbar-links-sub-icons">
+                                <a href="https://www.instagram.com/proxy_070/" target="_blank" rel="noopener noreferrer" className="home-navbar-links-sub-icons">
                                     <FaInstagram className="home-navbar-links-icons-item" />
                                 </a>
                             </div>
@@ -523,8 +519,8 @@ const Portfolio = () => {
                                                 name="name"
                                                 type="text"
                                                 id="name"
-                                                value={formData.name} // Controlled component
-                                                onChange={handleChange} // Handle change
+                                                value={formData.name}
+                                                onChange={handleChange}
                                                 required
                                             />
 
@@ -533,8 +529,8 @@ const Portfolio = () => {
                                                 name="email"
                                                 type="email"
                                                 id="email"
-                                                value={formData.email} // Controlled component
-                                                onChange={handleChange} // Handle change
+                                                value={formData.email}
+                                                onChange={handleChange}
                                                 required
                                             />
 
@@ -542,8 +538,8 @@ const Portfolio = () => {
                                             <textarea
                                                 name="message"
                                                 id="message"
-                                                value={formData.message} // Controlled component
-                                                onChange={handleChange} // Handle change
+                                                value={formData.message}
+                                                onChange={handleChange}
                                                 required
                                             />
 
