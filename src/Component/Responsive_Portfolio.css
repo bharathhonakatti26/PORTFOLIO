@@ -98,10 +98,10 @@
         backdrop-filter: blur(10px);
         z-index: 1000;
     }
-    
-    .home-navbar.sticky{
+
+    .home-navbar.sticky {
         position: fixed;
-        top: 100px;
+        top: 10px;
     }
 
     .home-navbar>.home-navbar-links-icons {
