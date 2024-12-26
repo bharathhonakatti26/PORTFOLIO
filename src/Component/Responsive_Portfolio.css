@@ -101,7 +101,7 @@
 
     .home-navbar.sticky {
         position: fixed;
-        top: 10px;
+        top: 5px;
     }
 
     .home-navbar>.home-navbar-links-icons {
