@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* cursor: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiCiAgICAgICAgICAgICAgICB2aWV3Qm94PSIwIDAgOCA4Ij48Y2lyY2xlIGN4PSI0IiBjeT0iNCIgcj0iNCIgZmlsbC1ydWxlPSJldmVub2RkIiBmaWxsPSIjMDgyMzNiIi8+PC9zdmc+) 4 4, auto; */
+  cursor: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiIHZpZXdCb3g9IjAgMCA4IDgiPjxjaXJjbGUgY3g9IjQiIGN5PSI0IiByPSI0IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiNGRkZGRkYiLz48L3N2Zz4=) 4 4, auto;
+  color: #fff;
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #08233b;
+  color: #fff;
+  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  -webkit-tap-highlight-color: transparent;
+  overflow: auto;
+}
+
+&::-webkit-scrollbar {
+  width: 10px;
+  background-color: #333
+}
+
+&::-webkit-scrollbar-thumb {
+  background-color: #666;
+  border-radius: 5px
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.cursor-ring {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  pointer-events: none;
+  background: radial-gradient(circle, rgba(227, 211, 190) 0, rgba(227, 214, 197) 74%, rgba(221, 204, 184) 100%);
+  border: 2px solid rgba(227, 211, 190, 0.5);
+  transform: translate(-50%, -50%);
+  transition: all 0.2s ease, opacity 0.5s ease;
+  z-index: 99999;
+  mix-blend-mode: difference;
+  animation: cursorPulse 2s infinite;
+}
+
+
+.cursor-ring.squished {
+  transform: translate(-50%, -50%) scale(10, 10);
+  border-radius: 40%;
+}
+
+@keyframes cursorPulse {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translate(-50%, -50%) scale(1.1);
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 1200px) {
+  /* Adjusting portfolio container width for medium-sized screens */
+  .portfolio-container {
+    max-width: 90%; /* Reduce width to 90% on medium screens */
+  }
+
+  /* Resize cursor ring for smaller screens */
+  .cursor-ring {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust padding in the portfolio container for tablets */
+  .portfolio-container {
+    padding: 0 15px;
+  }
+
+  /* Optionally adjust other elements like text sizes or layout if needed */
+  /* Example: */
+  /* .some-text { font-size: 16px; } */
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjust padding in the portfolio container for smaller screens */
+  .portfolio-container {
+    padding: 0 10px;
+  }
+
+  /* Adjust the progress container width for small screens */
+  .progress-container {
+    width: 90%;
+  }
+
+  /* Make cursor ring smaller for mobile */
+  .cursor-ring {
+    width: 15px;
+    height: 15px;
+  }
+
+}
