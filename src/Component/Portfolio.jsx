@@ -480,23 +480,33 @@ const Portfolio = () => {
                             {!showForm ? (
                                 <>
                                     <h2>
-                                        <p data-aos="fade-right" data-aos-delay="50">G</p>
-                                        <p data-aos="fade-right" data-aos-delay="100">o</p>
-                                        <p data-aos="fade-right" data-aos-delay="150">t</p>
-                                        <p data-aos="fade-right" data-aos-delay="200" style={{ marginLeft: '10px' }} >a</p>
-                                        <p data-aos="fade-right" data-aos-delay="250" style={{ marginLeft: '10px' }}>P</p>
-                                        <p data-aos="fade-right" data-aos-delay="300">r</p>
-                                        <p data-aos="fade-right" data-aos-delay="350">o</p>
-                                        <p data-aos="fade-right" data-aos-delay="400">j</p>
-                                        <p data-aos="fade-right" data-aos-delay="450">e</p>
-                                        <p data-aos="fade-right" data-aos-delay="500">c</p>
-                                        <p data-aos="fade-right" data-aos-delay="550">t</p>
-                                        <p data-aos="fade-right" data-aos-delay="600" style={{ marginLeft: '10px' }}>i</p>
-                                        <p data-aos="fade-right" data-aos-delay="650">n</p>
-                                        <p data-aos="fade-right" data-aos-delay="700" style={{ marginLeft: '10px' }}>M</p>
-                                        <p data-aos="fade-right" data-aos-delay="750">i</p>
-                                        <p data-aos="fade-right" data-aos-delay="800">n</p>
-                                        <p data-aos="fade-right" data-aos-delay="850">d</p>
+                                        <div className="align-flex">
+                                            <p data-aos="fade-right" data-aos-delay="50">G</p>
+                                            <p data-aos="fade-right" data-aos-delay="100">o</p>
+                                            <p data-aos="fade-right" data-aos-delay="150">t</p>
+                                        </div>
+                                        <div>
+                                            <p data-aos="fade-right" data-aos-delay="200" style={{ marginLeft: '10px' }} >a</p>
+                                        </div>
+                                        <div className="align-flex">
+                                            <p data-aos="fade-right" data-aos-delay="250" style={{ marginLeft: '10px' }}>P</p>
+                                            <p data-aos="fade-right" data-aos-delay="300">r</p>
+                                            <p data-aos="fade-right" data-aos-delay="350">o</p>
+                                            <p data-aos="fade-right" data-aos-delay="400">j</p>
+                                            <p data-aos="fade-right" data-aos-delay="450">e</p>
+                                            <p data-aos="fade-right" data-aos-delay="500">c</p>
+                                            <p data-aos="fade-right" data-aos-delay="550">t</p>
+                                        </div>
+                                        <div className="align-flex">
+                                            <p data-aos="fade-right" data-aos-delay="600" style={{ marginLeft: '10px' }}>i</p>
+                                            <p data-aos="fade-right" data-aos-delay="650">n</p>
+                                        </div>
+                                        <div className="align-flex">
+                                            <p data-aos="fade-right" data-aos-delay="700" style={{ marginLeft: '10px' }}>M</p>
+                                            <p data-aos="fade-right" data-aos-delay="750">i</p>
+                                            <p data-aos="fade-right" data-aos-delay="800">n</p>
+                                            <p data-aos="fade-right" data-aos-delay="850">d</p>
+                                        </div>
                                         <p data-aos="fade-right" data-aos-delay="900">?</p>
                                     </h2>
                                     <button data-aos="flip-right" className="contact-button" onClick={handleButtonClick}>
