@@ -1,5 +1,9 @@
 @media (max-width: 768px) {
 
+    .cursor-ring{
+        display: none;
+    }
+
     .portfolio-container {
         width: 98vw;
         padding: 10px;

@@ -43,6 +43,16 @@ import image14 from '../assets/Project_Images/Encryption-and-Decryption-System/i
 import image15 from '../assets/Project_Images/Event-Calendar-Application/image1.png';
 import image16 from '../assets/Project_Images/Event-Calendar-Application/image2.png';
 
+// Full Stack Carbon cloud images
+import image17 from '../assets/Project_Images/carbon_cloud/image1.png';
+import image18 from '../assets/Project_Images/carbon_cloud/image2.png';
+import image19 from '../assets/Project_Images/carbon_cloud/image3.png';
+import image20 from '../assets/Project_Images/carbon_cloud/image4.png';
+import image21 from '../assets/Project_Images/carbon_cloud/image7.png';
+import image22 from '../assets/Project_Images/carbon_cloud/image8.png';
+import image23 from '../assets/Project_Images/carbon_cloud/image5.png';
+import image24 from '../assets/Project_Images/carbon_cloud/image6.png';
+
 const Portfolio = () => {
     const [isShaking, setIsShaking] = useState(true);
     const [isSticky, setIsSticky] = useState(false);
@@ -101,12 +111,12 @@ const Portfolio = () => {
 
     const projects = [
         {
-            image: image1,
-            images: [image1, image2, image3],
-            title: "Password Generator and Strength Analyzer",
-            description: "This project is a Python-based application that provides users with two main....",
-            fullDescription: "This project is a Python-based application that provides users with two main functionalities: generating secure passwords and analyzing the strength of those passwords. The application utilizes the Tkinter library for its graphical user interface (GUI), allowing for an interactive user experience.",
-            Technologies_Used: ["Python", " Tkinter (for GUI)", " Random and String libraries", " Tkinter (for GUI)", " Tkinter (for GUI)"],
+            image: image17,
+            images: [image17, image18, image19 , image20 , image21 , image22 , image23 , image24],
+            title: "Carbon Cloud",
+            description: "Carbon Cloud is a dynamic business website platforms, providing a basic yet functional interface for users to explore cloud-based services.....",
+            fullDescription: "Carbon Cloud is a dynamic business website inspired by other cloud platforms, providing a basic yet functional interface for users to explore cloud-based services. The website features a responsive landing page with a modern navigation bar, engaging main content, and a footer equipped with additional functionalities. It offers a robust login and registration system integrated with MongoDB, including support for Google account login via Google API. After logging in, users can interact with a simple AI assistant that enhances their experience. The platform also includes a subscription feature powered by EmailJS, allowing users to subscribe to updates via email and receive automated confirmation messages. This project demonstrates full-stack development expertise using the MERN stack, with additional integrations for authentication and email services.",
+            Technologies_Used: [ "MERN Stack" , "React.js", "React Router" ,  "Local State Management" ,"Javascript", "Node.js", "Express.js" , "MongoDB" , "Google API - OAuth-based Google Login" , "EmailJS Integration" , "Basic AI-Powered Assistance"],
             github_link: "https://github.com/bharathhonakatti26/PASSWORD-GENERATER-PYTHON",
             live_link: "",
         },
@@ -146,7 +156,7 @@ const Portfolio = () => {
             title: "Encryption and Decryption System",
             description: "This project is based on encryption and decryption system implemented in C....",
             fullDescription: "This project is a simple command-line based encryption and decryption system implemented in C. It allows users to create encrypted files, edit existing encrypted files, and decrypt files to retrieve the original text. The system uses random file naming for the encrypted files, ensuring a unique identifier for each file created.",
-            Technologies_Used: ["C Programming", "File Handling", "Data Security", "User Input Validation", "Binary EncoEncoding"],
+            Technologies_Used: ["C Programming", "File Handling", "Data Security", "User Input Validation", "Binary Encoding"],
             github_link: "https://github.com/bharathhonakatti26/ENCRYPTION-AND-DECRYPTION",
             live_link: "",
         },
