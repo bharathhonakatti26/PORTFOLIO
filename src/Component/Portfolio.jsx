@@ -117,7 +117,7 @@ const Portfolio = () => {
             description: "Carbon Cloud is a dynamic business website platforms, providing a basic yet functional interface for users to explore cloud-based services.....",
             fullDescription: "Carbon Cloud is a dynamic business website inspired by other cloud platforms, providing a basic yet functional interface for users to explore cloud-based services. The website features a responsive landing page with a modern navigation bar, engaging main content, and a footer equipped with additional functionalities. It offers a robust login and registration system integrated with MongoDB, including support for Google account login via Google API. After logging in, users can interact with a simple AI assistant that enhances their experience. The platform also includes a subscription feature powered by EmailJS, allowing users to subscribe to updates via email and receive automated confirmation messages. This project demonstrates full-stack development expertise using the MERN stack, with additional integrations for authentication and email services.",
             Technologies_Used: [ "MERN Stack" , "React.js", "React Router" ,  "Local State Management" ,"Javascript", "Node.js", "Express.js" , "MongoDB" , "Google API - OAuth-based Google Login" , "EmailJS Integration" , "Basic AI-Powered Assistance"],
-            github_link: "https://github.com/bharathhonakatti26/PASSWORD-GENERATER-PYTHON",
+            github_link: "https://github.com/bharathhonakatti26/CARBON-CLOUD",
             live_link: "",
         },
         {
@@ -424,8 +424,8 @@ const Portfolio = () => {
                                     <p data-aos="fade-left" data-aos-delay="550">Windows , Linux</p>
                                 </div>
                                 <div>
-                                    <h2 data-aos="fade-left" data-aos-delay="650" data-aos-offset="30">Tools</h2>
-                                    <p data-aos="fade-left" data-aos-delay="700" data-aos-offset="30">Git/GitHub , Postman , Figma , Canva</p>
+                                    <h2 data-aos="fade-left" data-aos-delay="650" data-aos-offset="30">Others</h2>
+                                    <p data-aos="fade-left" data-aos-delay="700" data-aos-offset="30">Git/GitHub , Ctf , DSA , iVerilog Data Organization</p>
                                 </div>
                             </div>
                         </div>
